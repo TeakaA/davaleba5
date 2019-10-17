@@ -1,0 +1,17 @@
+.logo {
+	   width:150px;
+	   height:150px;
+	float:right; 
+}
+body{  background-color:#22B573;
+	   padding:50px;
+
+}
+.navbar{float:right;
+}
+.navbar-li{display:inline-block;
+	       font-size:48px;
+	     margin-right:100px;
+}
+
+a { color:white; }
