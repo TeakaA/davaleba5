@@ -1,3 +1,11 @@
+
+
+.main:after{
+	     content:"";
+	     clear:both;
+	     display:block;
+}
+
 .logo {
 	   width:150px;
 	   height:150px;
@@ -15,3 +23,60 @@ body{  background-color:#22B573;
 }
 
 a { color:white; }
+.container{
+	      max-width:1160px;
+	      width:100%;
+          margin:200px auto;
+         
+          
+}
+
+.box{ width:560px;
+	   background-color:#FCEE21;
+	   float:left;
+
+ }
+.box1{width:560px;
+	  background-color:#FCEE21;
+      float:right;
+}
+ .container:after{
+	       content:"";
+	     clear:both;
+	     display:block;
+	    }
+
+
+.text{font-size:14px;
+	  width:540px;
+	  float:left;
+	  margin-top:4px;
+	  margin-right:7px;
+
+}
+
+.picture{ width:150px;
+	      float:left;
+	      margin-top:4px;
+
+ }
+ .box:after{ content:"";
+	     clear:both;
+	     display:block; }
+
+	    .text1{font-size:14px;
+	  width:540px;
+	  float:left;
+	  margin-top:4px;
+	  margin-right:7px;
+
+}
+
+.picture1{ width:150px;
+	      float:right;
+	      margin-top:4px;
+
+ }
+ .box1:after{content:"";
+	     clear:both;
+	     display:block;}
